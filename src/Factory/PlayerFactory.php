@@ -3,9 +3,9 @@
 namespace App\Factory;
 
 use App\Entity\Player;
-use Zenstruck\Foundry\Proxy;
-use Zenstruck\Foundry\ModelFactory;
 use App\Repository\PlayerRepository;
+use Zenstruck\Foundry\ModelFactory;
+use Zenstruck\Foundry\Proxy;
 use Zenstruck\Foundry\RepositoryProxy;
 
 /**

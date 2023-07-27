@@ -16,7 +16,7 @@
                                 <ul class="list-group">
                                     <li class="list-group-item list-group-item-secondary mt-3">Players:</li>
                                     {% for player in team.players %}
-                                        <li class="list-group-item">{{ player.name }}</li>
+                                        <li class="list-group-item">{{ player.name }} ({{ player.surname }})</li>
                                     {% endfor %}
                                 </ul>
                             {% endif %}

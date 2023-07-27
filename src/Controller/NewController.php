@@ -32,8 +32,6 @@ class NewController extends AbstractController
         }
 
         return $this->render('new/index.html.twig', [
-            'controller_name' => 'NewController',
-
             'form' => $form->createView(),
         ]);
     }
